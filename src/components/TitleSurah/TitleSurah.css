@@ -1,0 +1,63 @@
+.title-surah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+.board-title-surah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0 0.3em;
+}
+
+.board-title-surah section {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+.board-title-surah section span {
+  font-size: 1.8rem;
+  font-family: QuranFont;
+  font-weight: 300;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 10px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #0f8bff;
+  color: white;
+  padding: 0 0.6em;
+}
+
+.count-ayat,
+.translation-surah,
+.revelation-surah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.translation-surah {
+  border-radius: 20px;
+  background-color: #52aafd;
+}
+
+@media screen and (max-width: 360px) {
+  .info {
+    padding: 0 0.25em;
+    font-size: 12px;
+  }
+}

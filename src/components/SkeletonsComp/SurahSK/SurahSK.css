@@ -1,0 +1,24 @@
+.sk-title-surah {
+  padding: 20px 0 25px;
+}
+
+.sk-card-surah {
+  margin-bottom: 20px;
+}
+
+.sk-section-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 1em 0.2em;
+}
+
+.sk-section-mid {
+  padding: 0 1em 0.3em;
+  text-align: right;
+}
+
+.sk-section-bottom {
+  padding: 0 1em;
+  text-align: left;
+}

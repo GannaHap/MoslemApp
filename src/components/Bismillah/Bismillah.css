@@ -1,0 +1,51 @@
+.bismillah {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.bismillah h2 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: QuranFont;
+}
+
+.bismillah p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .bismillah h2 {
+    font-size: 32px;
+  }
+
+  .bismillah p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .bismillah h2 {
+    font-size: 28px;
+  }
+
+  .bismillah p {
+    padding: 0.15em;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bismillah h2 {
+    font-size: 24px;
+  }
+
+  .bismillah p {
+    font-size: 14px;
+  }
+}

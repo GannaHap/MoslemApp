@@ -1,0 +1,46 @@
+.search-surah {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+/* Board Search */
+.board-search-surah {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #dde9ff;
+}
+
+.board-search-surah i {
+  margin-left: 10px;
+  color: #81848a;
+}
+
+.board-search-surah .input {
+  width: 500px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 0.6em 0.7em;
+}
+
+/* Under 576px */
+
+@media screen and (max-width: 576px) {
+  .search-surah {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .board-search-surah {
+    width: 90%;
+  }
+
+  .board-search-surah .input {
+    width: 100%;
+  }
+}

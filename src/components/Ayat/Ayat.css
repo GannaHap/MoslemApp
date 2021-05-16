@@ -1,0 +1,160 @@
+.ayat {
+  margin: 60px 0 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-ayat {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.card-ayat hr {
+  border-top: 1px solid #ddebf3;
+}
+
+/* Section TOP */
+.section-top-ayat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-left-ayat {
+  display: flex;
+  align-items: center;
+}
+
+.ayat-number {
+  width: 30px;
+  height: 30px;
+  padding: 0.2em;
+  margin-right: 20px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #0f8bff;
+  color: white;
+}
+
+/* Audio */
+.audio-board {
+  display: flex;
+  align-items: center;
+}
+
+.audio {
+  height: 30px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #d4e0e4;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #afc9d1;
+  border-radius: 50%;
+}
+
+.section-top-ayat i {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 0.2em;
+  box-sizing: border-box;
+}
+
+/* Show Option */
+.option-ayat {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.option-ayat span {
+  padding: 0.3em 0.5em;
+  color: white;
+  cursor: pointer;
+}
+
+.option-ayat span:hover {
+  background-color: rgba(0, 0, 0, 0.71);
+}
+
+/* Section Middle */
+.section-mid-ayat {
+  padding: 0.5em;
+  text-align: right;
+  font-size: 36px;
+}
+
+.section-mid-ayat p {
+  font-family: QuranFont;
+  color: rgb(1, 31, 68);
+}
+
+/* Section Bottom */
+.section-bottom-ayat {
+  padding: 1em 1em 0.6em;
+}
+.section-bottom-ayat p {
+  color: rgb(1, 31, 68);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .section-mid-ayat p {
+    font-size: 32px;
+  }
+
+  .section-bottom-ayat p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .ayat-number {
+    width: 25px;
+    height: 25px;
+    font-size: 1rem;
+    margin-right: 7px;
+  }
+
+  .audio {
+    width: 250px;
+  }
+
+  .section-mid-ayat p {
+    font-size: 28px;
+  }
+
+  .section-bottom-ayat p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card-ayat {
+    padding: 0.5em;
+  }
+
+  .audio {
+    width: 200px;
+  }
+
+  .section-mid-ayat p {
+    font-size: 24px;
+  }
+
+  .section-bottom-ayat p {
+    font-size: 14px;
+  }
+}

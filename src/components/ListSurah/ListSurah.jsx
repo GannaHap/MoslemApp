@@ -1,0 +1,41 @@
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import ActionType from '../../Redux/globalActionType';
+
+import './ListSurah.css';
+
+class ListSurah extends Component {
+  render() {
+    return (
+      <div className="list-surah">
+        {this.props.dataQuran &&
+          this.props.dataQuran.map((bar, index) => {
+            return (
+              <div className="bar-surah" name="SurahQuran" key={index} onClick={(e) => this.props.handleSurah(e, bar)}>
+                <div className="surah-name">
+                  <h4>{bar.name.transliteration.id}</h4>
+                  <span>{bar.numberOfVerses} ayat</span>
+                </div>
+              </div>
+            );
+          })}
+
+        {this.props.dataQuran.length === 0 && <div>KOSONG</div>}
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = (state) => {
+  return {
+    dataQuran: state.dataQuran,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    handleSurah: (e, surah) => dispatch({ type: ActionType.SELECT_DISPLAY, name: e.currentTarget.getAttribute('name'), surah: surah.number }),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ListSurah);

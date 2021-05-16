@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './App.css';
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import Quran from './views/Quran';
+import SurahQuran from './views/SurahQuran';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    const switchDisplay = () => {
+      switch (this.props.display) {
+        case 'Dashboard':
+          return <Quran />;
+        case 'SurahQuran':
+          return <SurahQuran />;
+        default:
+          return <div>Halaman tidak ditemukan</div>;
+      }
+    };
+    return (
+      <div>
+        <Header />
+        {switchDisplay()}
+        <Navigation />
+      </div>
+    );
+  }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    display: state.display,
+  };
+};
+
+export default connect(mapStateToProps)(App);
