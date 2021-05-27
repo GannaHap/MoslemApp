@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ActionType from '../../Redux/globalActionType';
+import EmptySurah from '../EmptySurah/EmptySurah';
 
 import './ListSurah.css';
 
@@ -20,7 +21,7 @@ class ListSurah extends Component {
             );
           })}
 
-        {this.props.dataQuran.length === 0 && <div>KOSONG</div>}
+        {this.props.dataQuran.length === 0 && <EmptySurah />}
       </div>
     );
   }

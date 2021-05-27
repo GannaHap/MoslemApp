@@ -1,0 +1,45 @@
+.empty-surah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  margin-top: -50px;
+}
+
+.empty-surah img {
+  width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+  .empty-surah img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .empty-surah img {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .empty-surah img {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .empty-surah {
+    margin-top: -20px;
+  }
+
+  .empty-surah img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .empty-surah img {
+    width: 90%;
+  }
+}

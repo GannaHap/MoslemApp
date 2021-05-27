@@ -68,6 +68,10 @@ audio::-webkit-media-controls-play-button:hover {
 }
 
 /* Show Option */
+.option-ayat.hide {
+  display: none;
+}
+
 .option-ayat {
   display: flex;
   flex-direction: column;
@@ -86,6 +90,7 @@ audio::-webkit-media-controls-play-button:hover {
 }
 
 .option-ayat span:hover {
+  border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.71);
 }
 

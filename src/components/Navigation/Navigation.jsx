@@ -8,7 +8,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="navigation">
-        <button name="Dashboard" className="btn-navigation" onClick={(e) => this.props.handleNavigation(e)}>
+        <button name="Dashboard" className="btn-navigation active" onClick={(e) => this.props.handleNavigation(e)}>
           <i className="far fa-quran"></i>
           <span>Al-Quran</span>
         </button>
@@ -31,7 +31,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    handleNavigation: (e) => dispatch({ type: ActionType.SELECT_DISPLAY, name: e.currentTarget.getAttribute('name') }),
+    handleNavigation: (e) => dispatch({ type: ActionType.SELECT_DISPLAY, name: e.currentTarget.getAttribute('name'), event: e }),
   };
 };
 

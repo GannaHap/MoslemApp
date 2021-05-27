@@ -10,7 +10,7 @@ const globalState = {
 };
 
 const rootReducer = (state = globalState, action) => {
-  // Search Surah
+  // SEARCH_SURAH
   if (action.type === ActionType.SEARCH_SURAH) {
     const { api } = state;
     const { keyword } = action;
@@ -38,7 +38,18 @@ const rootReducer = (state = globalState, action) => {
     };
   }
 
+  // SELECT_DISPLAY
   if (action.type === ActionType.SELECT_DISPLAY) {
+    if (action.event) {
+      // Button Active
+      const event = action.event.currentTarget;
+      const menuNav = document.querySelectorAll('.navigation .btn-navigation');
+      menuNav.forEach((menu, index) => {
+        menu.classList.remove('active');
+      });
+      event.classList.add('active');
+    }
+
     if (action.surah) {
       return {
         ...state,
@@ -51,6 +62,7 @@ const rootReducer = (state = globalState, action) => {
       display: action.name,
     };
   }
+
   return state;
 };
 
