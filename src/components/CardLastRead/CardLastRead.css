@@ -1,0 +1,52 @@
+.card-last-read {
+  padding: 0.4em;
+  margin-bottom: 15px;
+}
+
+.card-last-read hr {
+  margin-bottom: 10px;
+}
+
+.card-last-read h4 i {
+  margin-right: 4px;
+}
+
+.card-last-read h4 {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.board-last-read-empty {
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 1em 0.4em;
+  background-color: #e7e7e7;
+  color: #585858;
+}
+
+.board-last-read {
+  padding: 0.5em 0.4em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.board-last-read:hover {
+  background-color: #e7e7e7;
+}
+
+.number-juz {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.3em;
+  background-color: #0f8bff;
+  color: white;
+  box-shadow: 0 0 0 4px rgba(15, 139, 255, 0.15);
+}

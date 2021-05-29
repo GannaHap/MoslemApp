@@ -28,9 +28,7 @@ class ListSurah extends Component {
 }
 
 const mapStateToProps = (state) => {
-  return {
-    dataQuran: state.dataQuran,
-  };
+  return state;
 };
 
 const mapDispatchToProps = (dispatch) => {

@@ -1,0 +1,83 @@
+.list-ayat-favorite {
+  background-color: #e6f4fc;
+  margin-bottom: 10px;
+  padding: 0.9em 0.7em;
+}
+
+.title-list {
+  width: max-content;
+  padding: 0.1em 0.7em;
+  border-radius: 50px;
+  background-color: #25b3df;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.section-top-ayatFav {
+  display: grid;
+  grid-template-columns: auto 80px;
+  align-items: center;
+  gap: 30px;
+}
+
+.wrap-top-ayatFav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-top-ayatFav i {
+  font-size: 1.3rem;
+  padding: 0.2em;
+  width: 30px;
+  text-align: center;
+  color: rgb(255, 72, 72);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text-ayat {
+  font-family: QuranFont;
+  color: rgb(1, 31, 68);
+  font-size: 35px;
+  padding: 0.5em;
+  margin-top: 7px;
+  text-align: right;
+}
+
+.text-translate {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 660px) {
+  .section-top-ayatFav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .wrap-top-ayatFav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-ayat {
+    font-size: 32px;
+  }
+
+  .text-translate {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .section-top-ayatFav {
+    gap: 0;
+  }
+}

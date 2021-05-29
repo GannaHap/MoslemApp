@@ -7,6 +7,17 @@
   src: url('./assets/lpmq.woff');
 }
 
+/* Animation */
+@keyframes animasiAlert {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -16,4 +27,66 @@
 body {
   background-color: #fcfcfc;
   position: relative;
+}
+
+body {
+  /* background-color: #0f2d4e; */
+}
+
+#root {
+  position: relative;
+}
+
+.success-add-lastRead {
+  width: max-content;
+  position: sticky;
+  margin: 0 auto;
+  bottom: 90px;
+  color: #fcfcfc;
+  padding: 0.3em 1em;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  border-radius: 8px;
+  animation: animasiAlert 2.5s ease 2 alternate;
+}
+
+/* Collection */
+.collection {
+  padding: 1em 2em;
+}
+
+/* Ayat Favorites */
+.ayat-favorites {
+  padding: 0 2em;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-list-ayatFav {
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .collection {
+    padding: 1em;
+  }
+
+  .ayat-favorites {
+    padding: 0 1em;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .collection {
+    padding: 1em 0.5em;
+  }
+
+  .ayat-favorites {
+    padding: 0 0.5em;
+  }
 }

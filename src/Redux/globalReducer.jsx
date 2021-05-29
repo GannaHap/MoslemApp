@@ -7,6 +7,7 @@ const globalState = {
   searchSurah: '',
   display: 'Dashboard',
   surah: null,
+  scrollToAyat: null,
 };
 
 const rootReducer = (state = globalState, action) => {
@@ -40,6 +41,11 @@ const rootReducer = (state = globalState, action) => {
 
   // SELECT_DISPLAY
   if (action.type === ActionType.SELECT_DISPLAY) {
+    const alertElement = document.querySelector('.success-add-lastRead');
+    if (alertElement) {
+      alertElement.remove();
+    }
+
     if (action.event) {
       // Button Active
       const event = action.event.currentTarget;
@@ -50,13 +56,33 @@ const rootReducer = (state = globalState, action) => {
       event.classList.add('active');
     }
 
+    // Button See Last Read
+    if (action.lastRead) {
+      const menuNav = document.querySelectorAll('.navigation .btn-navigation');
+      menuNav.forEach((menu, index) => {
+        menu.classList.remove('active');
+      });
+
+      menuNav[0].classList.add('active');
+
+      return {
+        ...state,
+        display: action.name,
+        surah: action.numberSurah,
+        scrollToAyat: action.lastRead,
+      };
+    }
+
+    // See Surah
     if (action.surah) {
       return {
         ...state,
         display: action.name,
         surah: action.surah,
+        scrollToAyat: null,
       };
     }
+
     return {
       ...state,
       display: action.name,

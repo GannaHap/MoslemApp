@@ -36,7 +36,7 @@ class SurahQuran extends Component {
           <div>
             <TitleSurah data={this.state.data} />
             <Bismillah data={this.state.data} />
-            <Ayat data={this.state.data} />
+            <Ayat data={this.state.data} lastRead={this.props.lastRead} />
           </div>
         ) : (
           <BismillahSK />
@@ -47,6 +47,13 @@ class SurahQuran extends Component {
 }
 
 const mapStateToProps = (state) => {
+  if (state.scrollToAyat) {
+    return {
+      surah: state.surah,
+      lastRead: state.scrollToAyat,
+    };
+  }
+
   return {
     surah: state.surah,
   };

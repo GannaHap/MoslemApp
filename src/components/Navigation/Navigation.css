@@ -1,6 +1,7 @@
 .navigation {
   width: 80vw;
   position: fixed;
+  z-index: 5;
   bottom: 20px;
   background-color: #fefefe;
   display: grid;
