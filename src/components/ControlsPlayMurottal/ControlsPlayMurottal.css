@@ -1,0 +1,16 @@
+.controls-play-murottal {
+  margin-top: 35px;
+  padding: 0 2em;
+}
+
+@media screen and (max-width: 576px) {
+  .controls-play-murottal {
+    padding: 0 1em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .controls-play-murottal {
+    padding: 0 0.5em;
+  }
+}

@@ -6,6 +6,8 @@ import Navigation from './components/Navigation/Navigation';
 import AyatFavorites from './views/AyatFavorites';
 import Collection from './views/Collection';
 import Murottal from './views/Murottal';
+import PlayMurottal from './views/PlayMurottal';
+import Qari from './views/Qari';
 import Quran from './views/Quran';
 import SurahQuran from './views/SurahQuran';
 
@@ -23,6 +25,10 @@ class App extends Component {
           return <AyatFavorites />;
         case 'Murottal':
           return <Murottal />;
+        case 'Qari':
+          return <Qari />;
+        case 'PlayMurottal':
+          return <PlayMurottal />;
 
         default:
           return <div>Halaman tidak ditemukan</div>;

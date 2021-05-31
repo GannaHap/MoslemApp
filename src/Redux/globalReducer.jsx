@@ -1,13 +1,18 @@
 import ActionType from './globalActionType';
 import API from '../assets/data.json';
+import dataQari from '../assets/dataQari.json';
 
 const globalState = {
   api: API.data,
   dataQuran: API.data,
+  qari: dataQari.qari,
   searchSurah: '',
   display: 'Dashboard',
   surah: null,
   scrollToAyat: null,
+  qariName: '',
+  imgQari: null,
+  playingMurottal: null,
 };
 
 const rootReducer = (state = globalState, action) => {
@@ -46,8 +51,8 @@ const rootReducer = (state = globalState, action) => {
       alertElement.remove();
     }
 
+    // Button Active
     if (action.event) {
-      // Button Active
       const event = action.event.currentTarget;
       const menuNav = document.querySelectorAll('.navigation .btn-navigation');
       menuNav.forEach((menu, index) => {
@@ -83,8 +88,26 @@ const rootReducer = (state = globalState, action) => {
       };
     }
 
+    if (action.recitations) {
+      return {
+        ...state,
+        display: action.name,
+        playingMurottal: action.recitations,
+        imgQari: action.imgQari,
+      };
+    }
+
     return {
       ...state,
+      display: action.name,
+    };
+  }
+
+  // Select Qari
+  if (action.type === ActionType.SELECT_QARI) {
+    return {
+      ...state,
+      qariName: action.qari,
       display: action.name,
     };
   }

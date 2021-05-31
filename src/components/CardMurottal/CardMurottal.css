@@ -1,0 +1,21 @@
+.board-murottal {
+  margin: 40px 0 100px;
+}
+
+.card-murottal {
+  padding: 0.7em 1em 0.4em;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(126, 126, 126);
+  border-left: 4px solid transparent;
+  border-radius: 4px;
+}
+
+.card-murottal:hover {
+  border-left: 4px solid #0d76d8;
+}
+
+.card-murottal h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #0b84f5;
+}

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Ayat from '../components/Ayat/Ayat';
 import Bismillah from '../components/Bismillah/Bismillah';
-import BismillahSK from '../components/SkeletonsComp/SurahSK/SurahSK';
+import SurahQuranSK from '../components/SkeletonsComp/SurahQuranSK/SurahQuranSK';
 import TitleSurah from '../components/TitleSurah/TitleSurah';
 
 class SurahQuran extends Component {
@@ -39,7 +39,7 @@ class SurahQuran extends Component {
             <Ayat data={this.state.data} lastRead={this.props.lastRead} />
           </div>
         ) : (
-          <BismillahSK />
+          <SurahQuranSK />
         )}
       </div>
     );

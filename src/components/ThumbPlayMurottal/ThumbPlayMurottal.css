@@ -1,0 +1,10 @@
+.thumb-play-murottal {
+  margin: 25px auto 0;
+  width: 240px;
+  box-shadow: 0 0 7px 1px rgba(151, 151, 151, 0.5);
+}
+
+.thumb-play-murottal img {
+  width: 100%;
+  display: block;
+}

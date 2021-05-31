@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Skeleton from 'react-loading-skeleton';
 
-import './SurahSK.css';
+import './SurahQuranSK.css';
 
-export default class BismillahSK extends Component {
+export default class SurahQuranSK extends Component {
   render() {
     return (
       <div style={{ textAlign: 'center' }}>

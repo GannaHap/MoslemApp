@@ -1,0 +1,49 @@
+.list-qari {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.card-qari {
+  display: grid;
+  grid-template-columns: 90px auto;
+  align-items: center;
+  gap: 20px;
+  padding: 0 1em 0.7em;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  border-radius: 4px;
+  border-left: 4px solid transparent;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.card-qari:hover {
+  border-left: 4px solid rgb(24, 77, 252);
+}
+
+.card-qari img {
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.card-text-qari {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-text-qari h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-text-qari span {
+  color: rgb(119, 119, 119);
+}
+
+@media screen and (max-width: 411px) {
+  .card-qari {
+    padding: 0 0.5em 0.7em;
+    grid-template-columns: 70px auto;
+  }
+}

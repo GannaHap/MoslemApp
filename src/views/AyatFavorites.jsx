@@ -15,7 +15,6 @@ export default class AyatFavorites extends Component {
 
   render() {
     const listAyatFavorite = this.state.dataLocal;
-    console.log(listAyatFavorite.length);
     return (
       <div className="ayat-favorites">
         <TitleAyatFavorites />

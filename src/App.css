@@ -71,6 +71,11 @@ body {
   margin-top: 50px;
 }
 
+/* Murottal */
+/* .murottal {
+  padding: 0 1em;
+} */
+
 @media screen and (max-width: 768px) {
   .collection {
     padding: 1em;

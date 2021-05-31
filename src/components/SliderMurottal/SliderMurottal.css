@@ -1,0 +1,39 @@
+.slider-murottal {
+  margin-bottom: 15px;
+}
+
+.time-murottal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.section-slider-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.range-murottal {
+  -webkit-appearance: none;
+  background-color: #e7e7e7;
+  height: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.range-murottal::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 16px;
+  background: #067dec;
+  cursor: pointer;
+}
+
+.range-murottal::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #067dec;
+  cursor: pointer;
+}
