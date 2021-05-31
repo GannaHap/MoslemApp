@@ -39,6 +39,7 @@
   background-color: #0f8bff;
   color: white;
   cursor: pointer;
+  overflow: hidden;
 }
 
 #undo5s,
@@ -216,23 +217,68 @@
 }
 
 @media screen and (max-width: 440px) {
-  .button-controls {
-    display: grid;
-    grid-template-columns: 40px auto 40px;
-    gap: 7px;
-  }
-
-  #repeat {
-    border: none;
-    font-size: 1rem;
-  }
-
   #undo5s,
   #redo5s {
     display: none;
   }
 
-  .control-volume {
+  #repeat {
+    font-size: 1.2rem;
+    border: none;
+  }
+
+  .control-murottal-middle {
+    gap: 20px;
+  }
+
+  #backward,
+  #forward {
+    font-size: 1.1rem;
+  }
+
+  #play {
+    width: 50px;
+    height: 50px;
+  }
+
+  #volume {
+    font-size: 1.2rem;
+  }
+
+  .fas.fa-caret-up.active {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .button-controls {
+    display: flex;
+  }
+
+  #repeat {
+    font-size: 0.9rem;
+    border: none;
+  }
+
+  .control-murottal-middle {
+    gap: 10px;
+  }
+
+  #backward,
+  #forward {
+    font-size: 0.9rem;
+  }
+
+  #play {
     width: 40px;
+    height: 40px;
+  }
+
+  #volume {
+    font-size: 0.9rem;
+  }
+
+  .fas.fa-caret-up.active {
+    font-size: 0.9rem;
   }
 }
