@@ -3,6 +3,35 @@ import React, { Component } from 'react';
 import './ButtonControls.css';
 
 export default class ButtonControls extends Component {
+  state = {
+    play: 'far fa-play',
+    addMurottal: 'far fa-plus',
+  };
+
+  handlePlay = () => {
+    if (this.state.play === 'far fa-play') {
+      this.setState({
+        play: 'far fa-pause',
+      });
+    } else {
+      this.setState({
+        play: 'far fa-play',
+      });
+    }
+  };
+
+  handleAddMurottal = () => {
+    if (this.state.addMurottal === 'far fa-plus') {
+      this.setState({
+        addMurottal: 'far fa-check',
+      });
+    } else {
+      this.setState({
+        addMurottal: 'far fa-plus',
+      });
+    }
+  };
+
   render() {
     return (
       <div className="button-controls">
@@ -16,33 +45,15 @@ export default class ButtonControls extends Component {
           {/* Backward */}
           <i id="backward" className="far fa-step-backward"></i>
 
-          {/* Undo */}
-          <div id="undo5s">
-            <i className="far fa-undo-alt"></i>
-            <span>5s</span>
-          </div>
-
           {/* Play */}
-          <i id="play" className="far fa-play"></i>
-
-          {/* Redo */}
-          <div id="redo5s">
-            <span>5s</span>
-            <i className="far fa-redo-alt"></i>
-          </div>
+          <i id="play" className={this.state.play} onClick={() => this.handlePlay()}></i>
 
           {/* Forward */}
           <i id="forward" className="far fa-step-forward"></i>
         </div>
 
-        {/* Control Volume */}
-        <div className="control-volume">
-          <i id="volume" className="far fa-volume-up"></i>
-          <i className="fas fa-caret-up active"></i>
-          <div className="bar-volume">
-            <input type="range" className="slider-volume" />
-            <span>100</span>
-          </div>
+        <div className="part-add-murottal">
+          <i id="addMurottal" className={this.state.addMurottal} onClick={() => this.handleAddMurottal()}></i>
         </div>
       </div>
     );
