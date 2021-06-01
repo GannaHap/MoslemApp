@@ -13,6 +13,14 @@ const globalState = {
   qariName: '',
   imgQari: null,
   playingMurottal: null,
+  recitations: null,
+};
+
+const nextMurottal = (playingMurottal, recitations) => {
+  const indexThisAudio = playingMurottal.id;
+  const newRecitation = recitations[indexThisAudio];
+
+  return newRecitation;
 };
 
 const rootReducer = (state = globalState, action) => {
@@ -88,12 +96,13 @@ const rootReducer = (state = globalState, action) => {
       };
     }
 
-    if (action.recitations) {
+    if (action.murottal) {
       return {
         ...state,
         display: action.name,
-        playingMurottal: action.recitations,
+        playingMurottal: action.murottal,
         imgQari: action.imgQari,
+        recitations: action.recitations,
       };
     }
 
@@ -109,6 +118,19 @@ const rootReducer = (state = globalState, action) => {
       ...state,
       qariName: action.qari,
       display: action.name,
+    };
+  }
+
+  // Next Song
+  if (action.type === ActionType.NEXT_MUROTTAL) {
+    const playingMurottal = state.playingMurottal;
+    const recitations = state.recitations;
+
+    const newRecitation = nextMurottal(playingMurottal, recitations);
+
+    return {
+      ...state,
+      playingMurottal: newRecitation,
     };
   }
 

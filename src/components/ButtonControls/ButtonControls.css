@@ -8,7 +8,7 @@
 }
 
 /* Part Repeat */
-#repeat {
+.far.fa-repeat-alt {
   width: 30px;
   display: flex;
   justify-content: center;
@@ -16,6 +16,21 @@
   font-size: 1.25rem;
   color: #1077d8;
   border: 2px solid #107bdf;
+  padding: 0.2em 0.7em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.far.fa-repeat-alt.active,
+.far.fa-repeat-1-alt {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #fff;
+  border: 2px solid #0f8bff;
+  background-color: #0f8bff;
   padding: 0.2em 0.7em;
   border-radius: 30px;
   cursor: pointer;
@@ -57,8 +72,8 @@
   border: 2px solid #107bdf;
 }
 
-#backward:hover,
-#forward:hover {
+#backward:active,
+#forward:active {
   border: 2px solid #0f8bff;
   background-color: #0f8bff;
   color: white;
@@ -130,7 +145,7 @@
   .button-controls {
     display: flex;
     grid-template-columns: 50px auto 50px;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
   }
 

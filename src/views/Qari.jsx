@@ -12,11 +12,10 @@ class Qari extends Component {
         rows = data;
       }
     });
-
     return (
       <div className="qari">
         <HeaderQari data={rows} />
-        <CardMurottal recitations={rows} qariName={qari} />
+        <CardMurottal recitation={rows} qariName={qari} />
       </div>
     );
   }

@@ -7,11 +7,14 @@ import ThumbPlayMurottal from '../components/ThumbPlayMurottal/ThumbPlayMurottal
 class PlayMurottal extends Component {
   render() {
     const { imgQari, qariName, playingMurottal } = this.props;
+    let url = playingMurottal.audio_url;
+    let audio = new Audio(url);
+
     return (
       <div className="play-murottal">
         <ThumbPlayMurottal image={imgQari} qariName={qariName} />
-        <BarPlayMurottal qariName={qariName} surahName={playingMurottal.id} />
-        <ControlsPlayMurottal />
+        <BarPlayMurottal qariName={qariName} surahName={playingMurottal.name} />
+        <ControlsPlayMurottal murottal={playingMurottal} audio={audio} />
       </div>
     );
   }

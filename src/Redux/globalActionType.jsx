@@ -2,6 +2,7 @@ const ActionType = {
   SEARCH_SURAH: 'SEARCH_SURAH',
   SELECT_DISPLAY: 'SELECT_DISPLAY',
   SELECT_QARI: 'SELECT_QARI',
+  NEXT_MUROTTAL: 'NEXT_MUROTTAL',
 };
 
 export default ActionType;

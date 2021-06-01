@@ -1,43 +1,26 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import ActionType from '../../Redux/globalActionType';
 
 import './ButtonControls.css';
 
-export default class ButtonControls extends Component {
-  state = {
-    play: 'far fa-play',
-    addMurottal: 'far fa-plus',
-  };
+class ButtonControls extends Component {
+  constructor(props) {
+    super(props);
 
-  handlePlay = () => {
-    if (this.state.play === 'far fa-play') {
-      this.setState({
-        play: 'far fa-pause',
-      });
-    } else {
-      this.setState({
-        play: 'far fa-play',
-      });
-    }
-  };
-
-  handleAddMurottal = () => {
-    if (this.state.addMurottal === 'far fa-plus') {
-      this.setState({
-        addMurottal: 'far fa-check',
-      });
-    } else {
-      this.setState({
-        addMurottal: 'far fa-plus',
-      });
-    }
-  };
+    this.state = {
+      addMurottal: 'far fa-plus',
+    };
+  }
 
   render() {
+    const { controlState } = this.props;
+    const { iconPlay, iconRepeat } = controlState;
     return (
       <div className="button-controls">
         {/* Part Repeat */}
         <div className="part-repeat">
-          <i id="repeat" className="far fa-repeat-alt"></i>
+          <i id="repeat" className={iconRepeat} onClick={() => this.props.handleRepeat()}></i>
         </div>
 
         {/* Part Middle */}
@@ -46,10 +29,10 @@ export default class ButtonControls extends Component {
           <i id="backward" className="far fa-step-backward"></i>
 
           {/* Play */}
-          <i id="play" className={this.state.play} onClick={() => this.handlePlay()}></i>
+          <i id="play" className={iconPlay} onClick={() => this.props.handlePlay()}></i>
 
           {/* Forward */}
-          <i id="forward" className="far fa-step-forward"></i>
+          <i id="forward" className="far fa-step-forward" onClick={() => this.props.nextMurottal()}></i>
         </div>
 
         <div className="part-add-murottal">
@@ -59,3 +42,19 @@ export default class ButtonControls extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  return {
+    murottal: state.playingMurottal,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    nextMurottal: () => {
+      dispatch({ type: ActionType.NEXT_MUROTTAL });
+    },
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ButtonControls);
