@@ -7,7 +7,7 @@
   padding: 0.4em 1em;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgb(187, 186, 186);
+  border-bottom: 1px solid #bbbaba;
   border-left: 4px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -15,17 +15,6 @@
 
 .bar-surah:hover {
   border-left: 4px solid #0073df;
-}
-
-.bar-surah .number {
-  margin-right: 20px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #fff;
 }
 
 .surah-name h4 {

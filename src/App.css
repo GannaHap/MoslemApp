@@ -66,15 +66,20 @@ body {
   justify-content: center;
 }
 
-.container-list-ayatFav {
+.playlist-murottal {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-list-ayatFav,
+.container-playlist-murottal {
   width: 100%;
   margin-top: 50px;
 }
-
-/* Murottal */
-/* .murottal {
-  padding: 0 1em;
-} */
 
 @media screen and (max-width: 768px) {
   .collection {

@@ -14,11 +14,41 @@ const globalState = {
   imgQari: null,
   playingMurottal: null,
   recitations: null,
+  indexMurottal: null,
 };
 
-const nextMurottal = (playingMurottal, recitations) => {
+// Next Murottal
+const nextMurottal = (recitations, index) => {
+  const newRecitation = recitations[index + 1];
+  if (index === recitations.length - 1) {
+    const newRecitation = recitations[0];
+    return newRecitation;
+  }
+
+  return newRecitation;
+};
+
+// Previous Murottal
+const prevMurottal = (recitations, index) => {
+  if (index === 0) {
+    const newRecitation = recitations[recitations.length - 1];
+    return newRecitation;
+  } else {
+    const newRecitation = recitations[index - 1];
+
+    return newRecitation;
+  }
+};
+
+// Auto Play
+const autoPlay = (playingMurottal, recitations) => {
   const indexThisAudio = playingMurottal.id;
   const newRecitation = recitations[indexThisAudio];
+
+  if (indexThisAudio === 114) {
+    const newRecitation = recitations[0];
+    return newRecitation;
+  }
 
   return newRecitation;
 };
@@ -96,13 +126,26 @@ const rootReducer = (state = globalState, action) => {
       };
     }
 
+    // Select Murottal
     if (action.murottal) {
+      if (action.qariName) {
+        return {
+          ...state,
+          display: action.name,
+          playingMurottal: action.murottal,
+          imgQari: action.imgQari,
+          recitations: action.recitations,
+          indexMurottal: action.indexMurottal,
+          qariName: action.qariName,
+        };
+      }
       return {
         ...state,
         display: action.name,
         playingMurottal: action.murottal,
         imgQari: action.imgQari,
         recitations: action.recitations,
+        indexMurottal: action.indexMurottal,
       };
     }
 
@@ -118,16 +161,76 @@ const rootReducer = (state = globalState, action) => {
       ...state,
       qariName: action.qari,
       display: action.name,
+      recitations: action.recitations,
     };
   }
 
-  // Next Song
+  // Next_MUROTTAL
   if (action.type === ActionType.NEXT_MUROTTAL) {
+    const recitations = state.recitations;
+    const index = state.indexMurottal;
+    let count = null;
+    const newRecitation = nextMurottal(recitations, index);
+
+    if (index === recitations.length - 1) {
+      count = 0;
+    } else {
+      count = index + 1;
+    }
+
+    if (newRecitation.image) {
+      return {
+        ...state,
+        playingMurottal: newRecitation,
+        indexMurottal: count,
+        imgQari: newRecitation.image,
+        qariName: newRecitation.qariName,
+      };
+    }
+
+    return {
+      ...state,
+      playingMurottal: newRecitation,
+      indexMurottal: count,
+    };
+  }
+
+  // PREV MUROTTAL
+  if (action.type === ActionType.PREV_MUROTTAL) {
+    const recitations = state.recitations;
+    const index = state.indexMurottal;
+    let count = null;
+    const newRecitation = prevMurottal(recitations, index);
+
+    if (index === 0) {
+      count = recitations.length - 1;
+    } else {
+      count = index - 1;
+    }
+
+    if (newRecitation.image) {
+      return {
+        ...state,
+        playingMurottal: newRecitation,
+        indexMurottal: count,
+        imgQari: newRecitation.image,
+        qariName: newRecitation.qariName,
+      };
+    }
+
+    return {
+      ...state,
+      playingMurottal: newRecitation,
+      indexMurottal: count,
+    };
+  }
+
+  // AUTO_PLAY
+  if (action.type === ActionType.AUTO_PLAY) {
     const playingMurottal = state.playingMurottal;
     const recitations = state.recitations;
 
-    const newRecitation = nextMurottal(playingMurottal, recitations);
-
+    const newRecitation = autoPlay(playingMurottal, recitations);
     return {
       ...state,
       playingMurottal: newRecitation,

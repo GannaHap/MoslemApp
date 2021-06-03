@@ -14,7 +14,7 @@ class PlayMurottal extends Component {
       <div className="play-murottal">
         <ThumbPlayMurottal image={imgQari} qariName={qariName} />
         <BarPlayMurottal qariName={qariName} surahName={playingMurottal.name} />
-        <ControlsPlayMurottal murottal={playingMurottal} audio={audio} />
+        <ControlsPlayMurottal murottal={playingMurottal} qariName={qariName} audio={audio} image={imgQari} />
       </div>
     );
   }

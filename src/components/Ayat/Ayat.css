@@ -103,7 +103,7 @@ audio::-webkit-media-controls-play-button:hover {
 
 .section-mid-ayat p {
   font-family: QuranFont;
-  color: rgb(1, 31, 68);
+  color: #011f44;
 }
 
 /* Section Bottom */
@@ -111,7 +111,7 @@ audio::-webkit-media-controls-play-button:hover {
   padding: 1em 1em 0.6em;
 }
 .section-bottom-ayat p {
-  color: rgb(1, 31, 68);
+  color: #011f44;
   font-size: 20px;
 }
 

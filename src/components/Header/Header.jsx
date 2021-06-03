@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <div className="header">
         <h2>MoslemApps</h2>
-        <ButtonMode />
+        <ButtonMode themeToggler={this.props.themeToggler} />
       </div>
     );
   }

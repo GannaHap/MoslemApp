@@ -1,22 +1,23 @@
-.card-last-read {
+.card-playlist-murottal {
   padding: 0.4em;
   margin-bottom: 15px;
 }
 
-.card-last-read hr {
+.card-playlist-murottal hr {
   margin-bottom: 10px;
 }
 
-.card-last-read h4 i {
-  margin-right: 4px;
-}
-
-.card-last-read h4 {
+.card-playlist-murottal h4 {
   font-weight: 500;
   font-size: 1.1rem;
 }
 
-.board-last-read-empty {
+.card-playlist-murottal i {
+  margin-right: 4px;
+}
+
+/* If playlist 0 */
+.board-playlist-murottal-empty {
   font-weight: 400;
   border-radius: 5px;
   padding: 1em 0.4em;
@@ -24,16 +25,17 @@
   color: #585858;
 }
 
-.board-last-read {
+/* If playlist > 0 */
+.board-playlist-murottal {
   padding: 0.5em 0.4em;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  gap: 20px;
   cursor: pointer;
+  gap: 20px;
 }
 
-.number-juz {
+.total-murottal {
   width: 50px;
   height: 50px;
   display: flex;
@@ -45,4 +47,20 @@
   background-color: #0f8bff;
   color: white;
   box-shadow: 0 0 0 4px rgba(15, 139, 255, 0.15);
+}
+
+.text-playlist-murottal span {
+  color: #464646;
+}
+
+@media screen and (max-width: 410px) {
+  .board-playlist-murottal {
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 30px;
+  }
+
+  .text-playlist-murottal span {
+    font-size: 14px;
+  }
 }

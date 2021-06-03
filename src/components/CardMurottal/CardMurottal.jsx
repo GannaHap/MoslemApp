@@ -10,11 +10,12 @@ class CardMurottal extends Component {
     const dataRecitations = this.props.recitation;
     const recitation = dataRecitations.recitations;
     const imgQari = dataRecitations.img;
+
     return (
       <div className="board-murottal">
         {recitation.map((rec, index) => {
           return (
-            <div className="card-murottal" name="PlayMurottal" key={index} onClick={(e) => this.props.handleMurottal(e, rec, imgQari, recitation)}>
+            <div className="card-murottal" name="PlayMurottal" key={index} onClick={(e) => this.props.handleMurottal(e, rec, imgQari, recitation, index)}>
               <h4>{rec.name}</h4>
               <span>{qariName}</span>
             </div>
@@ -31,13 +32,14 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    handleMurottal: (e, murottal, imgQari, recitations) =>
+    handleMurottal: (e, murottal, imgQari, recitations, index) =>
       dispatch({
         type: ActionType.SELECT_DISPLAY,
         name: e.currentTarget.getAttribute('name'),
         murottal: murottal,
         imgQari: imgQari,
         recitations: recitations,
+        indexMurottal: index,
       }),
   };
 };

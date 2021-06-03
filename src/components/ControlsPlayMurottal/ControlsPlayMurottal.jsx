@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import ActionType from '../../Redux/globalActionType';
 import ButtonControls from '../ButtonControls/ButtonControls';
 import SliderMurottal from '../SliderMurottal/SliderMurottal';
 
@@ -17,10 +18,38 @@ class ControlsPlayMurottal extends Component {
       autoPlay: false,
       repeat: false,
     };
-
-    // this.url = this.props.murottal.audio_url;
-    // this.audio = new Audio(this.url);
   }
+
+  // Create Alert Success Add Murottal
+  createAlertSuccess = (text) => {
+    const root = document.querySelector('#root');
+
+    const alert = document.createElement('div');
+    alert.classList.add('success-add-lastRead');
+    alert.innerHTML = text;
+
+    const alertElement = document.querySelector('.success-add-lastRead');
+    if (alertElement) {
+      alertElement.remove();
+    }
+
+    root.append(alert);
+  };
+
+  // Delete Alert Success
+  deleteAlertSuccess = () => {
+    const alertElement = document.querySelector('.success-add-lastRead');
+    if (alertElement) {
+      alertElement.remove();
+    }
+  };
+
+  // Reset Duration
+  resetDuration = () => {
+    this.setState({
+      valueDuration: 0,
+    });
+  };
 
   // Play Murottal
   playMurottal = () => {
@@ -69,10 +98,19 @@ class ControlsPlayMurottal extends Component {
       this.setState({
         iconPlay: 'far fa-play',
       });
+
       if (this.state.repeat) {
         setTimeout(() => {
           this.playMurottal();
         }, 700);
+      }
+
+      if (this.state.autoPlay) {
+        this.resetDuration();
+        this.props.nextMurottal();
+        setTimeout(() => {
+          this.playMurottal();
+        }, 1000);
       }
     }
   };
@@ -100,21 +138,68 @@ class ControlsPlayMurottal extends Component {
     }
   };
 
-  // nextMurottal = () => {
-  //   const indexThisAudio = this.props.murottal.id;
-  //   const allRecitation = this.props.recitations;
-  //   const newRecitation = allRecitation[indexThisAudio];
+  // handleAddMurottal
+  handleAddMurottal = () => {
+    const { murottal, qariName, image } = this.props;
+    const storages = JSON.parse(localStorage['listMurottal']);
 
-  //   console.log(newRecitation);
-  // };
+    let row = {
+      id: murottal.id,
+      name: murottal.name,
+      audio_url: murottal.audio_url,
+      qariName: qariName,
+      image: image,
+    };
+
+    let rows = [];
+    let remove = [];
+
+    if (storages.length > 0) {
+      storages.forEach((storage) => {
+        if (storage.audio_url !== murottal.audio_url) {
+          rows.push(storage);
+        } else {
+          rows.push(storage);
+          remove.push(storage);
+        }
+      });
+    }
+
+    if (remove.length === 0) {
+      rows.push(row);
+      this.createAlertSuccess('Berhasil Menambahkan');
+    }
+
+    if (remove.length === 1) {
+      this.createAlertSuccess('Sudah ada di Playlist');
+    }
+
+    localStorage['listMurottal'] = JSON.stringify(rows);
+
+    setTimeout(() => {
+      this.deleteAlertSuccess();
+    }, 3500);
+  };
+
+  componentWillUnmount() {
+    this.pauseMurottal();
+  }
 
   render() {
-    console.log(this.props.audio);
-    console.log(this.props);
+    const { image } = this.props;
     return (
       <div className="controls-play-murottal">
         <SliderMurottal audio={this.props.audio} handleDuration={this.handleDuration} valueDuration={this.state.valueDuration} play={this.playMurottal} />
-        <ButtonControls handlePlay={this.handlePlay} handleRepeat={this.handleButtonRepeat} controlState={this.state} />
+        <ButtonControls
+          handlePlay={this.handlePlay}
+          handleAddMurottal={this.handleAddMurottal}
+          handleRepeat={this.handleButtonRepeat}
+          controlState={this.state}
+          pause={this.pauseMurottal}
+          resetDuration={this.resetDuration}
+          play={this.playMurottal}
+          image={image}
+        />
       </div>
     );
   }
@@ -126,4 +211,12 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default connect(mapStateToProps)(ControlsPlayMurottal);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    nextMurottal: () => {
+      dispatch({ type: ActionType.AUTO_PLAY });
+    },
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ControlsPlayMurottal);

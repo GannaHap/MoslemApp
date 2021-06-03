@@ -12,6 +12,12 @@ export default class Quran extends Component {
         if (localStorage.getItem('ayatFavorite') === null) {
           localStorage.setItem('ayatFavorite', JSON.stringify([]));
         }
+        if (localStorage.getItem('listMurottal') === null) {
+          localStorage.setItem('listMurottal', JSON.stringify([]));
+        }
+        if (localStorage.getItem('themeMode') === null) {
+          localStorage.setItem('themeMode', 'light');
+        }
       } else {
         alert('Browser Anda tidak support Penyimpanan Local. Kami sarankan anda menggunakan Google Chrome');
       }

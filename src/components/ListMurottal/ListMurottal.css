@@ -1,0 +1,38 @@
+.list-murottal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(141, 141, 141);
+  border-left: 4px solid transparent;
+  border-radius: 4px;
+  padding: 0.8em 2em 0em;
+  cursor: pointer;
+}
+
+.list-murottal:hover {
+  border-left: 4px solid rgb(0, 102, 255);
+}
+
+.text-list-murottal h4 {
+  color: #0f8bff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.list-murottal i {
+  color: rgb(255, 73, 73);
+  font-size: 1.1rem;
+  padding: 0.2em;
+}
+
+@media screen and (max-width: 576px) {
+  .list-murottal {
+    padding: 0.8em 1em 0em;
+  }
+}
+
+@media screen and(max-width: 360px) {
+  .list-murottal {
+    padding: 0.8em 0.4em 0em;
+  }
+}
