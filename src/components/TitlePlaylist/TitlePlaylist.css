@@ -1,9 +1,11 @@
 .title-playlist-murottal {
+  width: max-content;
   background-color: #0f8bff;
   box-shadow: 0 0 0 5px rgba(15, 139, 255, 0.15);
   padding: 0.3em 0.9em;
   color: white;
   border-radius: 50px;
+  margin: 30px auto 40px;
 }
 
 .title-playlist-murottal h4 {

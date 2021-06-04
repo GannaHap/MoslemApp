@@ -55,29 +55,14 @@ body {
 
 /* Ayat Favorites */
 .ayat-favorites,
+.playlist-murottal,
 .about-us {
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.container-list-ayatFav {
   padding: 0 2em;
-  margin-top: 40px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.playlist-murottal {
-  margin-top: 40px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.container-list-ayatFav,
-.container-playlist-murottal {
-  width: 100%;
-  margin-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -85,7 +70,7 @@ body {
     padding: 1em;
   }
 
-  .ayat-favorites,
+  .container-list-ayatFav,
   .about-us {
     padding: 0 1em;
   }
@@ -96,7 +81,7 @@ body {
     padding: 1em 0.5em;
   }
 
-  .ayat-favorites,
+  .container-list-ayatFav,
   .about-us {
     padding: 0 0.5em;
   }

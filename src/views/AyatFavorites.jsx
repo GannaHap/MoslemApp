@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ListAyatFavorite from '../components/ListAyatFavorite/ListAyatFavorite';
 import TitleAyatFavorites from '../components/TitleAyatFavorites/TitleAyatFavorites';
+import ButtonBack from '../components/ButtonBack/ButtonBack';
 
 export default class AyatFavorites extends Component {
   state = {
@@ -17,6 +18,7 @@ export default class AyatFavorites extends Component {
     const listAyatFavorite = this.state.dataLocal;
     return (
       <div className="ayat-favorites">
+        <ButtonBack position="button-back-ayatFavorite" name="Collection" />
         <TitleAyatFavorites />
         <div className="container-list-ayatFav">
           {listAyatFavorite.map((list, index) => {

@@ -7,6 +7,8 @@ import './ListSurah.css';
 
 class ListSurah extends Component {
   render() {
+    window.scrollBy(0, 0);
+
     return (
       <div className="list-surah">
         {this.props.dataQuran &&

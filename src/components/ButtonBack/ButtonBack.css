@@ -1,0 +1,76 @@
+.button-back-playMurottal,
+.button-back-surahQuran,
+.button-back-qari,
+.button-back-ayatFavorite,
+.button-back-playlistMurottal {
+  padding: 0 1em;
+  font-size: 1.3rem;
+  position: sticky;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  background-color: #dbdbdb;
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-back-playMurottal i,
+.button-back-surahQuran i,
+.button-back-qari i,
+.button-back-ayatFavorite i,
+.button-back-playlistMurottal i {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.button-back-playMurottal span,
+.button-back-surahQuran span,
+.button-back-qari span,
+.button-back-ayatFavorite span,
+.button-back-playlistMurottal span {
+  font-size: 1rem;
+}
+
+.button-back-playMurottal,
+.button-back-ayatFavorite,
+.button-back-playlistMurottal {
+  top: 0;
+}
+
+.button-back-surahQuran {
+  top: 115px;
+}
+
+.button-back-qari {
+  top: 163px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-back-qari {
+    top: 133px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .button-back-qari {
+    top: 113px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .button-back-surahQuran {
+    top: 110px;
+  }
+
+  .button-back-qari {
+    top: 103px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button-back-qari {
+    top: 93px;
+  }
+}

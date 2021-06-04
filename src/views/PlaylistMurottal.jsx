@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ListMurottal from '../components/ListMurottal/ListMurottal';
 import TitlePlaylist from '../components/TitlePlaylist/TitlePlaylist';
+import ButtonBack from '../components/ButtonBack/ButtonBack';
 
 export default class PlaylistMurottal extends Component {
   state = {
@@ -17,6 +18,7 @@ export default class PlaylistMurottal extends Component {
     const playList = this.state.dataLocal;
     return (
       <div className="playlist-murottal">
+        <ButtonBack position="button-back-playlistMurottal" name="Collection" />
         <TitlePlaylist />
         <div className="container-playlist-murottal">
           {playList.map((list, index) => {

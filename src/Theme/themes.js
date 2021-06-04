@@ -14,6 +14,7 @@ export const lightTheme = {
   titleHeader: '#000',
   navigation: '#fefefe',
   btnNavigation: '#919191',
+  bgButtonBack: '#dbdbdb',
 
   // Quran
   listTitleSurah: '#000',
@@ -46,6 +47,7 @@ export const darkTheme = {
   titleHeader: '#fefefe',
   navigation: '#2d3748',
   btnNavigation: '#fefefe',
+  bgButtonBack: '#151a24',
 
   // Quran
   listTitleSurah: '#ebebeb',
@@ -92,6 +94,21 @@ export const GlobalStyles = createGlobalStyle`
     color: ${(props) => props.theme.btnNavigation};
   }
 
+  // ButtonBack
+  .button-back-surahQuran,
+  .button-back-qari,
+  .button-back-playMurottal,
+  .button-back-playlistMurottal {
+    background-color: ${(props) => props.theme.bgButtonBack}
+  } 
+
+  .button-back-surahQuran i,
+  .button-back-qari i,
+  .button-back-playMurottal i,
+  .button-back-playlistMurottal {
+    color: ${(props) => props.theme.blackBlueYoung}
+  }
+  
 // Quran
   .surah-name h4 {
     color: ${(props) => props.theme.listTitleSurah};

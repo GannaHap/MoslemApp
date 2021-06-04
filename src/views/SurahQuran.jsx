@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Ayat from '../components/Ayat/Ayat';
 import Bismillah from '../components/Bismillah/Bismillah';
+import ButtonBack from '../components/ButtonBack/ButtonBack';
 import SurahQuranSK from '../components/SkeletonsComp/SurahQuranSK/SurahQuranSK';
 import TitleSurah from '../components/TitleSurah/TitleSurah';
 
@@ -35,6 +36,7 @@ class SurahQuran extends Component {
         {this.state.data ? (
           <div>
             <TitleSurah data={this.state.data} />
+            <ButtonBack position="button-back-surahQuran" name="Dashboard" />
             <Bismillah data={this.state.data} />
             <Ayat data={this.state.data} lastRead={this.props.lastRead} />
           </div>

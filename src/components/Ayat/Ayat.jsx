@@ -126,7 +126,8 @@ export default class Ayat extends Component {
     if (this.props.lastRead) {
       const ayat = this.props.lastRead;
       const ayatLastRead = document.getElementById(ayat);
-      ayatLastRead.scrollIntoView();
+      ayatLastRead.scrollIntoView(true);
+      window.scrollBy(0, -170);
     }
   }
 

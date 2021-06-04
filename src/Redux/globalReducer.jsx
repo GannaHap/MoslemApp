@@ -84,7 +84,6 @@ const rootReducer = (state = globalState, action) => {
 
   // SELECT_DISPLAY
   if (action.type === ActionType.SELECT_DISPLAY) {
-    console.log(action);
     const alertElement = document.querySelector('.success-add-lastRead');
     if (alertElement) {
       alertElement.remove();
@@ -130,6 +129,11 @@ const rootReducer = (state = globalState, action) => {
     // Select Murottal
     if (action.murottal) {
       if (action.qariName) {
+        const menuNav = document.querySelectorAll('.navigation .btn-navigation');
+        menuNav.forEach((menu) => {
+          menu.classList.remove('active');
+        });
+        menuNav[1].classList.add('active');
         return {
           ...state,
           display: action.name,
@@ -140,6 +144,7 @@ const rootReducer = (state = globalState, action) => {
           qariName: action.qariName,
         };
       }
+
       return {
         ...state,
         display: action.name,
