@@ -1,0 +1,30 @@
+.option-apps {
+  font-size: 1.2rem;
+  padding: 0 0.2em;
+  cursor: pointer;
+  position: relative;
+}
+
+.aboutUs.hide {
+  display: none;
+}
+
+.aboutUs {
+  width: max-content;
+  padding: 0em 0.5em;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  font-size: 1rem;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: -25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutUs:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}

@@ -5,6 +5,7 @@ import './TitleSurah.css';
 export default class TitleSurah extends Component {
   render() {
     const data = this.props.data;
+    console.log(data);
     return (
       <div className="title-surah">
         <div className="board-title-surah">

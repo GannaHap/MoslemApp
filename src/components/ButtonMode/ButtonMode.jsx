@@ -9,6 +9,7 @@ export default class ButtonMode extends Component {
 
   render() {
     const btnMode = localStorage.getItem('themeMode');
+
     return (
       <div className="button-mode">
         <label className="switch">

@@ -13,6 +13,7 @@ import PlayMurottal from './views/PlayMurottal';
 import Qari from './views/Qari';
 import Quran from './views/Quran';
 import SurahQuran from './views/SurahQuran';
+import AboutUs from './views/AboutUs.jsx';
 
 const StyledApp = styled.div``;
 
@@ -34,6 +35,8 @@ const switchDisplay = (display) => {
       return <PlayMurottal />;
     case 'PlaylistMurottal':
       return <PlaylistMurottal />;
+    case 'AboutUs':
+      return <AboutUs />;
 
     default:
       return <div>Halaman tidak ditemukan</div>;

@@ -1,0 +1,13 @@
+.title-about-us {
+  background-color: #0f8bff;
+  box-shadow: 0 0 0 5px rgba(15, 139, 255, 0.15);
+  padding: 0.3em 0.9em;
+  color: white;
+  border-radius: 50px;
+}
+
+.title-about-us h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}

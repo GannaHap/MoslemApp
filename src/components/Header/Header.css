@@ -14,6 +14,13 @@
   font-weight: 500;
 }
 
+.section-btn-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
 @media screen and (max-width: 576px) {
   .header {
     padding: 0.4em 1em;

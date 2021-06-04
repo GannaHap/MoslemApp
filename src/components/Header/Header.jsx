@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ButtonMode from '../ButtonMode/ButtonMode';
+import OptionApps from '../OptionApps/OptionApps';
 
 import './Header.css';
 
@@ -8,7 +9,10 @@ export default class Header extends Component {
     return (
       <div className="header">
         <h2>MoslemApps</h2>
-        <ButtonMode themeToggler={this.props.themeToggler} />
+        <div className="section-btn-header">
+          <ButtonMode themeToggler={this.props.themeToggler} />
+          <OptionApps />
+        </div>
       </div>
     );
   }

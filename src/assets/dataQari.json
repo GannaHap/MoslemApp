@@ -598,446 +598,557 @@
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/003.mp3"
         },
         {
+          "id": 4,
           "name": "An-Nisa'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/004.mp3"
         },
         {
+          "id": 5,
           "name": "Al-Ma'idah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/005.mp3"
         },
         {
           "name": "Al-An'am",
+          "id": 6,
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/006.mp3"
         },
         {
+          "id": 7,
           "name": "Al-A'raf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/007.mp3"
         },
         {
+          "id": 8,
           "name": "Al-Anfal",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/008.mp3"
         },
         {
+          "id": 9,
           "name": "At-Taubah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/009.mp3"
         },
         {
+          "id": 10,
           "name": "Yunus",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/010.mp3"
         },
         {
+          "id": 11,
           "name": "Hud",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/011.mp3"
         },
         {
+          "id": 12,
           "name": "Yusuf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/012.mp3"
         },
         {
+          "id": 13,
           "name": "Ar-Ra'd",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/013.mp3"
         },
         {
+          "id": 14,
           "name": "Ibrahim",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/014.mp3"
         },
         {
+          "id": 15,
           "name": "Al-Hijr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/015.mp3"
         },
         {
+          "id": 16,
           "name": "An-Nahl",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/016.mp3"
         },
         {
+          "id": 17,
           "name": "Al-Isra'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/017.mp3"
         },
         {
+          "id": 18,
           "name": "Al-Kahf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/018.mp3"
         },
         {
+          "id": 19,
           "name": "Maryam",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/019.mp3"
         },
         {
+          "id": 20,
           "name": "Taha",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/020.mp3"
         },
         {
+          "id": 21,
           "name": "Al-Anbiya'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/021.mp3"
         },
         {
+          "id": 22,
           "name": "Al-Hajj",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/022.mp3"
         },
         {
+          "id": 23,
           "name": "Al-Mu'minun",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/023.mp3"
         },
         {
+          "id": 24,
           "name": "An-Nur",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/024.mp3"
         },
         {
+          "id": 25,
           "name": "Al-Furqan",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/025.mp3"
         },
         {
+          "id": 26,
           "name": "Asy-Syu'ara'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/026.mp3"
         },
         {
+          "id": 27,
           "name": "An-Naml",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/027.mp3"
         },
         {
+          "id": 28,
           "name": "Al-Qasas",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/028.mp3"
         },
         {
+          "id": 29,
           "name": "Al-'Ankabut",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/029.mp3"
         },
         {
+          "id": 30,
           "name": "Ar-Rum",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/030.mp3"
         },
         {
+          "id": 31,
           "name": "Luqman",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/031.mp3"
         },
         {
+          "id": 32,
           "name": "As-Sajdah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/032.mp3"
         },
         {
+          "id": 33,
           "name": "Al-Ahzab",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/033.mp3"
         },
         {
+          "id": 34,
           "name": "Saba'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/034.mp3"
         },
         {
+          "id": 35,
           "name": "Fatir",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/035.mp3"
         },
         {
+          "id": 36,
           "name": "Yasin",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/036.mp3"
         },
         {
+          "id": 37,
           "name": "As-Saffat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/037.mp3"
         },
         {
+          "id": 38,
           "name": "Sad",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/038.mp3"
         },
         {
+          "id": 39,
           "name": "Az-Zumar",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/039.mp3"
         },
         {
+          "id": 40,
           "name": "Gafir",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/040.mp3"
         },
         {
+          "id": 41,
           "name": "Fussilat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/041.mp3"
         },
         {
+          "id": 42,
           "name": "Asy-Syura",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/042.mp3"
         },
         {
+          "id": 43,
           "name": "Az-Zukhruf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/043.mp3"
         },
         {
+          "id": 44,
           "name": "Ad-Dukhan",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/044.mp3"
         },
         {
+          "id": 45,
           "name": "Al-Jasiyah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/045.mp3"
         },
         {
+          "id": 46,
           "name": "Al-Ahqaf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/046.mp3"
         },
         {
+          "id": 47,
           "name": "Muhammad",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/047.mp3"
         },
         {
+          "id": 48,
           "name": "Al-Fath",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/048.mp3"
         },
         {
+          "id": 49,
           "name": "Al-Hujurat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/049.mp3"
         },
         {
+          "id": 50,
           "name": "Qaf",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/050.mp3"
         },
         {
+          "id": 51,
           "name": "Az-Zariyat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/051.mp3"
         },
         {
+          "id": 52,
           "name": "At-Tur",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/052.mp3"
         },
         {
+          "id": 53,
           "name": "An-Najm",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/053.mp3"
         },
         {
+          "id": 54,
           "name": "Al-Qamar",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/054.mp3"
         },
         {
+          "id": 55,
           "name": "Ar-Rahman",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/055.mp3"
         },
         {
+          "id": 56,
           "name": "Al-Waqi'ah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/056.mp3"
         },
         {
+          "id": 57,
           "name": "Al-Hadid",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/057.mp3"
         },
         {
+          "id": 58,
           "name": "Al-Mujadalah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/058.mp3"
         },
         {
+          "id": 59,
           "name": "Al-Hasyr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/059.mp3"
         },
         {
+          "id": 60,
           "name": "Al-Mumtahanah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/060.mp3"
         },
         {
+          "id": 61,
           "name": "As-Saff",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/061.mp3"
         },
         {
+          "id": 62,
           "name": "Al-Jumu'ah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/062.mp3"
         },
         {
+          "id": 63,
           "name": "Al-Munafiqun",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/063.mp3"
         },
         {
+          "id": 64,
           "name": "At-Tagabun",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/064.mp3"
         },
         {
+          "id": 65,
           "name": "At-Talaq",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/065.mp3"
         },
         {
+          "id": 66,
           "name": "At-Tahrim",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/066.mp3"
         },
         {
+          "id": 67,
           "name": "Al-Mulk",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/067.mp3"
         },
         {
+          "id": 68,
           "name": "Al-Qalam",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/068.mp3"
         },
         {
+          "id": 69,
           "name": "Al-Haqqah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/069.mp3"
         },
         {
+          "id": 70,
           "name": "Al-Ma'arij",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/070.mp3"
         },
         {
+          "id": 71,
           "name": "Nuh",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/071.mp3"
         },
         {
+          "id": 72,
           "name": "Al-Jinn",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/072.mp3"
         },
         {
+          "id": 73,
           "name": "Al-Muzzammil",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/073.mp3"
         },
         {
+          "id": 74,
           "name": "Al-Muddassir",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/074.mp3"
         },
         {
+          "id": 75,
           "name": "Al-Qiyamah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/075.mp3"
         },
         {
+          "id": 76,
           "name": "Al-Insan",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/076.mp3"
         },
         {
+          "id": 77,
           "name": "Al-Mursalat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/077.mp3"
         },
         {
+          "id": 78,
           "name": "An-Naba'",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/078.mp3"
         },
         {
+          "id": 79,
           "name": "An-Nazi'at",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/079.mp3"
         },
         {
+          "id": 80,
           "name": "'Abasa",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/080.mp3"
         },
         {
+          "id": 81,
           "name": "At-Takwir",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/081.mp3"
         },
         {
+          "id": 82,
           "name": "Al-Infitar",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/082.mp3"
         },
         {
+          "id": 83,
           "name": "Al-Mutaffifin",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/083.mp3"
         },
         {
+          "id": 84,
           "name": "Al-Insyiqaq",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/084.mp3"
         },
         {
+          "id": 85,
           "name": "Al-Buruj",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/085.mp3"
         },
         {
+          "id": 86,
           "name": "At-Tariq",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/086.mp3"
         },
         {
+          "id": 87,
           "name": "Al-A'la",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/087.mp3"
         },
         {
+          "id": 88,
           "name": "Al-Gasyiyah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/088.mp3"
         },
         {
+          "id": 89,
           "name": "Al-Fajr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/089.mp3"
         },
         {
+          "id": 90,
           "name": "Al-Balad",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/090.mp3"
         },
         {
+          "id": 91,
           "name": "Asy-Syams",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/091.mp3"
         },
         {
+          "id": 92,
           "name": "Al-Lail",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/092.mp3"
         },
         {
+          "id": 93,
           "name": "Ad-Duha",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/093.mp3"
         },
         {
+          "id": 94,
           "name": "Asy-Syarh",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/094.mp3"
         },
         {
+          "id": 95,
           "name": "At-Tin",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/095.mp3"
         },
         {
+          "id": 96,
           "name": "Al-'Alaq",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/096.mp3"
         },
         {
+          "id": 97,
           "name": "Al-Qadr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/097.mp3"
         },
         {
+          "id": 98,
           "name": "Al-Bayyinah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/098.mp3"
         },
         {
+          "id": 99,
           "name": "Az-Zalzalah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/099.mp3"
         },
         {
+          "id": 100,
           "name": "Al-'Adiyat",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/100.mp3"
         },
         {
+          "id": 101,
           "name": "Al-Qari'ah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/101.mp3"
         },
         {
+          "id": 102,
           "name": "At-Takasur",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/102.mp3"
         },
         {
+          "id": 103,
           "name": "Al-'Asr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/103.mp3"
         },
         {
+          "id": 104,
           "name": "Al-Humazah",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/104.mp3"
         },
         {
+          "id": 105,
           "name": "Al-Fil",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/105.mp3"
         },
         {
+          "id": 106,
           "name": "Quraisy",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/106.mp3"
         },
         {
+          "id": 107,
           "name": "Al-Ma'un",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/107.mp3"
         },
         {
+          "id": 108,
           "name": "Al-Kausar",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/108.mp3"
         },
         {
+          "id": 109,
           "name": "Al-Kafirun",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/109.mp3"
         },
         {
+          "id": 110,
           "name": "An-Nasr",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/110.mp3"
         },
         {
+          "id": 111,
           "name": "Al-Lahab",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/111.mp3"
         },
         {
+          "id": 112,
           "name": "Al-Ikhlas",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/112.mp3"
         },
         {
+          "id": 113,
           "name": "Al-Falaq",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/113.mp3"
         },
         {
+          "id": 114,
           "name": "An-Nas",
           "audio_url": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/114.mp3"
         }
@@ -1049,458 +1160,572 @@
       "desc": "Qari, ‎Imam‎, dan Hafiz‎",
       "recitations": [
         {
+          "id": 1,
           "name": "Al-Fatihah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/001.mp3"
         },
         {
+          "id": 2,
           "name": "Al-Baqarah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/002.mp3"
         },
         {
+          "id": 3,
           "name": "Ali 'Imran",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/003.mp3"
         },
         {
+          "id": 4,
           "name": "An-Nisa'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/004.mp3"
         },
         {
+          "id": 5,
           "name": "Al-Ma'idah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/005.mp3"
         },
         {
+          "id": 6,
           "name": "Al-An'am",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/006.mp3"
         },
         {
+          "id": 7,
           "name": "Al-A'raf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/007.mp3"
         },
         {
+          "id": 8,
           "name": "Al-Anfal",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/008.mp3"
         },
         {
+          "id": 9,
           "name": "At-Taubah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/009.mp3"
         },
         {
+          "id": 10,
           "name": "Yunus",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/010.mp3"
         },
         {
+          "id": 11,
           "name": "Hud",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/011.mp3"
         },
         {
+          "id": 12,
           "name": "Yusuf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/012.mp3"
         },
         {
+          "id": 13,
           "name": "Ar-Ra'd",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/013.mp3"
         },
         {
+          "id": 14,
           "name": "Ibrahim",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/014.mp3"
         },
         {
+          "id": 15,
           "name": "Al-Hijr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/015.mp3"
         },
         {
+          "id": 16,
           "name": "An-Nahl",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/016.mp3"
         },
         {
+          "id": 17,
           "name": "Al-Isra'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/017.mp3"
         },
         {
+          "id": 18,
           "name": "Al-Kahf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/018.mp3"
         },
         {
+          "id": 19,
           "name": "Maryam",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/019.mp3"
         },
         {
+          "id": 20,
           "name": "Taha",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/020.mp3"
         },
         {
+          "id": 21,
           "name": "Al-Anbiya'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/021.mp3"
         },
         {
+          "id": 22,
           "name": "Al-Hajj",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/022.mp3"
         },
         {
+          "id": 23,
           "name": "Al-Mu'minun",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/023.mp3"
         },
         {
+          "id": 24,
           "name": "An-Nur",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/024.mp3"
         },
         {
+          "id": 25,
           "name": "Al-Furqan",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/025.mp3"
         },
         {
+          "id": 26,
           "name": "Asy-Syu'ara'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/026.mp3"
         },
         {
+          "id": 27,
           "name": "An-Naml",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/027.mp3"
         },
         {
+          "id": 28,
           "name": "Al-Qasas",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/028.mp3"
         },
         {
+          "id": 29,
           "name": "Al-'Ankabut",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/029.mp3"
         },
         {
+          "id": 30,
           "name": "Ar-Rum",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/030.mp3"
         },
         {
+          "id": 31,
           "name": "Luqman",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/031.mp3"
         },
         {
+          "id": 32,
           "name": "As-Sajdah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/032.mp3"
         },
         {
+          "id": 33,
           "name": "Al-Ahzab",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/033.mp3"
         },
         {
+          "id": 34,
           "name": "Saba'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/034.mp3"
         },
         {
+          "id": 35,
           "name": "Fatir",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/035.mp3"
         },
         {
+          "id": 36,
           "name": "Yasin",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/036.mp3"
         },
         {
+          "id": 37,
           "name": "As-Saffat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/037.mp3"
         },
         {
+          "id": 38,
           "name": "Sad",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/038.mp3"
         },
         {
+          "id": 39,
           "name": "Az-Zumar",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/039.mp3"
         },
         {
+          "id": 40,
           "name": "Gafir",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/040.mp3"
         },
         {
+          "id": 41,
           "name": "Fussilat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/041.mp3"
         },
         {
+          "id": 42,
           "name": "Asy-Syura",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/042.mp3"
         },
         {
+          "id": 43,
           "name": "Az-Zukhruf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/043.mp3"
         },
         {
+          "id": 44,
           "name": "Ad-Dukhan",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/044.mp3"
         },
         {
+          "id": 45,
           "name": "Al-Jasiyah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/045.mp3"
         },
         {
+          "id": 46,
           "name": "Al-Ahqaf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/046.mp3"
         },
         {
+          "id": 47,
           "name": "Muhammad",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/047.mp3"
         },
         {
+          "id": 48,
           "name": "Al-Fath",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/048.mp3"
         },
         {
+          "id": 49,
           "name": "Al-Hujurat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/049.mp3"
         },
         {
+          "id": 50,
           "name": "Qaf",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/050.mp3"
         },
         {
+          "id": 51,
           "name": "Az-Zariyat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/051.mp3"
         },
         {
+          "id": 52,
           "name": "At-Tur",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/052.mp3"
         },
         {
+          "id": 53,
           "name": "An-Najm",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/053.mp3"
         },
         {
+          "id": 54,
           "name": "Al-Qamar",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/054.mp3"
         },
         {
+          "id": 55,
           "name": "Ar-Rahman",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/055.mp3"
         },
         {
+          "id": 56,
           "name": "Al-Waqi'ah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/056.mp3"
         },
         {
+          "id": 57,
           "name": "Al-Hadid",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/057.mp3"
         },
         {
+          "id": 58,
           "name": "Al-Mujadalah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/058.mp3"
         },
         {
+          "id": 59,
           "name": "Al-Hasyr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/059.mp3"
         },
         {
+          "id": 60,
           "name": "Al-Mumtahanah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/060.mp3"
         },
         {
+          "id": 61,
           "name": "As-Saff",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/061.mp3"
         },
         {
+          "id": 62,
           "name": "Al-Jumu'ah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/062.mp3"
         },
         {
+          "id": 63,
           "name": "Al-Munafiqun",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/063.mp3"
         },
         {
+          "id": 64,
           "name": "At-Tagabun",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/064.mp3"
         },
         {
+          "id": 65,
           "name": "At-Talaq",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/065.mp3"
         },
         {
+          "id": 66,
           "name": "At-Tahrim",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/066.mp3"
         },
         {
+          "id": 67,
           "name": "Al-Mulk",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/067.mp3"
         },
         {
+          "id": 68,
           "name": "Al-Qalam",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/068.mp3"
         },
         {
+          "id": 69,
           "name": "Al-Haqqah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/069.mp3"
         },
         {
+          "id": 70,
           "name": "Al-Ma'arij",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/070.mp3"
         },
         {
+          "id": 71,
           "name": "Nuh",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/071.mp3"
         },
         {
+          "id": 72,
           "name": "Al-Jinn",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/072.mp3"
         },
         {
+          "id": 73,
           "name": "Al-Muzzammil",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/073.mp3"
         },
         {
+          "id": 74,
           "name": "Al-Muddassir",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/074.mp3"
         },
         {
+          "id": 75,
           "name": "Al-Qiyamah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/075.mp3"
         },
         {
+          "id": 76,
           "name": "Al-Insan",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/076.mp3"
         },
         {
+          "id": 77,
           "name": "Al-Mursalat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/077.mp3"
         },
         {
+          "id": 78,
           "name": "An-Naba'",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/078.mp3"
         },
         {
+          "id": 79,
           "name": "An-Nazi'at",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/079.mp3"
         },
         {
+          "id": 80,
           "name": "'Abasa",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/080.mp3"
         },
         {
+          "id": 81,
           "name": "At-Takwir",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/081.mp3"
         },
         {
+          "id": 82,
           "name": "Al-Infitar",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/082.mp3"
         },
         {
+          "id": 83,
           "name": "Al-Mutaffifin",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/083.mp3"
         },
         {
+          "id": 84,
           "name": "Al-Insyiqaq",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/084.mp3"
         },
         {
+          "id": 85,
           "name": "Al-Buruj",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/085.mp3"
         },
         {
+          "id": 86,
           "name": "At-Tariq",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/086.mp3"
         },
         {
+          "id": 87,
           "name": "Al-A'la",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/087.mp3"
         },
         {
+          "id": 88,
           "name": "Al-Gasyiyah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/088.mp3"
         },
         {
+          "id": 89,
           "name": "Al-Fajr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/089.mp3"
         },
         {
+          "id": 90,
           "name": "Al-Balad",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/090.mp3"
         },
         {
+          "id": 91,
           "name": "Asy-Syams",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/091.mp3"
         },
         {
+          "id": 92,
           "name": "Al-Lail",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/092.mp3"
         },
         {
+          "id": 93,
           "name": "Ad-Duha",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/093.mp3"
         },
         {
+          "id": 94,
           "name": "Asy-Syarh",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/094.mp3"
         },
         {
+          "id": 95,
           "name": "At-Tin",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/095.mp3"
         },
         {
+          "id": 96,
           "name": "Al-'Alaq",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/096.mp3"
         },
         {
+          "id": 97,
           "name": "Al-Qadr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/097.mp3"
         },
         {
+          "id": 98,
           "name": "Al-Bayyinah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/098.mp3"
         },
         {
+          "id": 99,
           "name": "Az-Zalzalah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/099.mp3"
         },
         {
+          "id": 100,
           "name": "Al-'Adiyat",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/100.mp3"
         },
         {
+          "id": 101,
           "name": "Al-Qari'ah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/101.mp3"
         },
         {
+          "id": 102,
           "name": "At-Takasur",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/102.mp3"
         },
         {
+          "id": 103,
           "name": "Al-'Asr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/103.mp3"
         },
         {
+          "id": 104,
           "name": "Al-Humazah",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/104.mp3"
         },
         {
+          "id": 105,
           "name": "Al-Fil",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/105.mp3"
         },
         {
+          "id": 106,
           "name": "Quraisy",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/106.mp3"
         },
         {
+          "id": 107,
           "name": "Al-Ma'un",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/107.mp3"
         },
         {
+          "id": 108,
           "name": "Al-Kausar",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/108.mp3"
         },
         {
+          "id": 109,
           "name": "Al-Kafirun",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/109.mp3"
         },
         {
+          "id": 110,
           "name": "An-Nasr",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/110.mp3"
         },
         {
+          "id": 111,
           "name": "Al-Lahab",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/111.mp3"
         },
         {
+          "id": 112,
           "name": "Al-Ikhlas",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/112.mp3"
         },
         {
+          "id": 113,
           "name": "Al-Falaq",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/113.mp3"
         },
         {
+          "id": 114,
           "name": "An-Nas",
           "audio_url": "https://download.quranicaudio.com/quran/sa3d_al-ghaamidi/complete/114.mp3"
         }

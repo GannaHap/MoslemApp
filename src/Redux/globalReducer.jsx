@@ -84,6 +84,7 @@ const rootReducer = (state = globalState, action) => {
 
   // SELECT_DISPLAY
   if (action.type === ActionType.SELECT_DISPLAY) {
+    console.log(action);
     const alertElement = document.querySelector('.success-add-lastRead');
     if (alertElement) {
       alertElement.remove();

@@ -1,0 +1,137 @@
+.text-about-us {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.text-about-us h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  color: #0f8bff;
+  margin-bottom: 20px;
+}
+
+.text-about-us p {
+  text-indent: 25px;
+  text-align: justify;
+}
+
+.text-about-us ul {
+  margin-left: 25px;
+}
+
+.text-about-us ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.text-about-us ul li i {
+  font-size: 0.5rem;
+  color: #0f8bff;
+}
+
+.text-about-us ul li a {
+  color: #0f8bff;
+}
+
+.text-about-us h5 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+#report-to-me {
+  margin-bottom: 5px;
+}
+
+.whatsapp {
+  border: none;
+  outline: none;
+  background-color: #24cc63;
+  padding: 0.2em 1em;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.whatsapp:hover {
+  background-color: #22b65b;
+}
+
+.whatsapp a {
+  color: white;
+}
+
+/* Footer */
+.text-aboutUs-footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.fas.fa-heart {
+  color: rgb(250, 71, 71);
+}
+
+.text-aboutUs-footer h5 {
+  margin: 0;
+}
+
+.sosmed {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gmail {
+  border: none;
+  outline: none;
+  /* background-color: #e34133; */
+  background-color: #fff;
+  padding: 0.2em 1em;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.gmail:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.gmail a {
+  color: #e34133;
+}
+
+.gmail a i {
+  color: #e34133;
+}
+
+@media screen and (max-width: 411px) {
+  .text-about-us h4 {
+    font-size: 17px;
+  }
+
+  .text-about-us p,
+  .text-about-us ul li {
+    font-size: 14px;
+  }
+
+  .text-about-us ul li i {
+    font-size: 0.4rem;
+  }
+}

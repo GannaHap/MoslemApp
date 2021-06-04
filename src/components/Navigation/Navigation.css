@@ -13,6 +13,7 @@
 
 .btn-navigation {
   border: none;
+  outline: none;
   background-color: transparent;
   color: #919191;
   padding: 0.3em 1em 0;

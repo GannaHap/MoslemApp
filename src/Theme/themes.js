@@ -37,14 +37,14 @@ export const darkTheme = {
   blackWhite: '#fff',
   blackBlueYoung: '#dce8f5',
   blackBlue: '#0f8bff',
-  cardBoard: '#0b223b',
+  cardBoard: '#1a202c',
 
   // All
-  body: '#0f2d4e',
-  header: '#123863',
+  body: '#151a24',
+  header: '#151a24',
   boxShadowHeader: '0 1px 7px rgba(0, 0, 0, 0.7)',
   titleHeader: '#fefefe',
-  navigation: '#143f70',
+  navigation: '#2d3748',
   btnNavigation: '#fefefe',
 
   // Quran
@@ -53,11 +53,11 @@ export const darkTheme = {
 
   // SurahQuran
   // Title Surah //
-  bgTitleSurah: '#0b223b',
+  bgTitleSurah: '#212936',
 
   // Qari
   // Header Qari //
-  headerQari: '#0b223b',
+  headerQari: '#1e2433',
 
   // PlayMurottal
   // BtnControls //
@@ -78,6 +78,10 @@ export const GlobalStyles = createGlobalStyle`
   
   .header h2 {
     color: ${(props) => props.theme.titleHeader};
+  }
+  
+  .far.fa-ellipsis-v {
+    color: ${(props) => props.theme.blackWhite}
   }
   
   .navigation {
@@ -205,4 +209,13 @@ export const GlobalStyles = createGlobalStyle`
   .text-list-murottal span {
     color: ${(props) => props.theme.blackBlueYoung};
   }
+
+// AboutUs
+  .text-about-us p,
+  .text-about-us ul,
+  .text-about-us h5,
+  .text-aboutUs-footer span {
+    color: ${(props) => props.theme.blackBlueYoung};
+  }
+  
 `;
