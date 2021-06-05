@@ -4,6 +4,8 @@
   padding: 0.3em 0.9em;
   color: white;
   border-radius: 50px;
+  width: max-content;
+  margin: 30px auto;
 }
 
 .title-about-us h4 {
