@@ -41,17 +41,28 @@ export default class TextAboutUs extends Component {
         <h5>API Data</h5>
         <ul>
           <li>
-            <a href="https://github.com/sutanlab/quran-api">Sutanlab Qur'an API</a>
+            <a href="https://github.com/sutanlab/quran-api" target="_blank" rel="noopener noreferrer">
+              Sutanlab Qur'an API
+            </a>
           </li>
           <li>
-            <a href="https://github.com/penggguna/QuranJSON">Quran JSON API</a>
+            <a href="https://github.com/penggguna/QuranJSON" target="_blank" rel="noopener noreferrer">
+              Quran JSON API
+            </a>
           </li>
         </ul>
 
         <h5>Icon</h5>
         <ul>
           <li>
-            <a href="https://fontawesome.com/">Font Awesome</a>
+            <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">
+              Font Awesome
+            </a>
+          </li>
+          <li>
+            <a href="https://www.flaticon.com/search?word=moslem" target="_blank" rel="noopener noreferrer">
+              Flaticon
+            </a>
           </li>
         </ul>
 

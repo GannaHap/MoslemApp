@@ -35,8 +35,10 @@ class SurahQuran extends Component {
       <div className="surah-quran">
         {this.state.data ? (
           <div>
-            <TitleSurah data={this.state.data} />
-            <ButtonBack position="button-back-surahQuran" name="Dashboard" />
+            <div className="header-surah-quran">
+              <TitleSurah data={this.state.data} />
+              <ButtonBack position="button-back-surahQuran" name="Dashboard" />
+            </div>
             <Bismillah data={this.state.data} />
             <Ayat data={this.state.data} lastRead={this.props.lastRead} />
           </div>

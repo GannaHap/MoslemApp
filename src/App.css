@@ -48,6 +48,13 @@ body {
   animation: animasiAlert 2.5s ease 2 alternate;
 }
 
+/* Surah Quran */
+.header-surah-quran {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 /* Collection */
 .collection {
   padding: 1em 2em;

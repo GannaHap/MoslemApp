@@ -39,10 +39,6 @@
   top: 0;
 }
 
-.button-back-surahQuran {
-  top: 115px;
-}
-
 .button-back-qari {
   top: 163px;
 }
@@ -60,10 +56,6 @@
 }
 
 @media screen and (max-width: 411px) {
-  .button-back-surahQuran {
-    top: 110px;
-  }
-
   .button-back-qari {
     top: 103px;
   }
