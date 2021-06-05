@@ -98,14 +98,16 @@ export const GlobalStyles = createGlobalStyle`
   .button-back-surahQuran,
   .button-back-qari,
   .button-back-playMurottal,
-  .button-back-playlistMurottal {
+  .button-back-playlistMurottal,
+  .button-back-ayatFavorite {
     background-color: ${(props) => props.theme.bgButtonBack}
   } 
 
   .button-back-surahQuran i,
   .button-back-qari i,
   .button-back-playMurottal i,
-  .button-back-playlistMurottal {
+  .button-back-playlistMurottal i,
+  .button-back-ayatFavorite i {
     color: ${(props) => props.theme.blackBlueYoung}
   }
   
